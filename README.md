@@ -11,8 +11,11 @@ A Next.Js Boilerplate with atomic design folder structure & API instance with ax
 
 ## How setup appConfig
 
-    const activeConfig =  'dev';
+    const activeConfig =  '';
 
 **activeConfig** serves to signal that the config is being run. In this case we have 2 main config namely ;
- 1. **DEV** (Development)
- 2. **PROD** (Production)
+ 1. **dev** (Development)
+ 2. **prod** (Production)
+## Pages Integrated with Dynamic Layout
+
+    <AppLayout  title="About"  description="Desc.." showSidebar={true}>...</AppLayout>
