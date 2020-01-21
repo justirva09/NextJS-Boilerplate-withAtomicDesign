@@ -1,0 +1,17 @@
+{
+  "name": "boilerplate-nextjs",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "axios": "^0.19.1",
+    "next": "9.1.7",
+    "next-seo": "^3.4.0",
+    "react": "16.12.0",
+    "react-dom": "16.12.0"
+  }
+}
